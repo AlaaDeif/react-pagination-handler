@@ -110,9 +110,9 @@ export default function App() {
 
 | Props               | Type         | Description                                                                                                                                                                               |
 | ------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| items - required    | Array of JSX | Description                                                                                                                                                                               |
+| items - required    | Array of JSX | JSX of your elements. for example: product cards                                                                                                                                          |
 | itemsPerPage        | Number       | The number of JSX you want to render in each page, default value 12                                                                                                                       |
-| pagesLimit          | Number       | Number of pages before abd after the active page, default value 2                                                                                                                         |
+| pagesLimit          | Number       | Number of pages before and after the active page, default value 2                                                                                                                         |
 | listContainer       | Object       | Style object for the container hold your JSX elements, default is flex box with center values                                                                                             |
 | paginationContainer | Object       | Style object for the pagination container, default is flex box with center values                                                                                                         |
 | paginationLabel     | Object       | Style object for the pagination label                                                                                                                                                     |
