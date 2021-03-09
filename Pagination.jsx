@@ -112,7 +112,7 @@ export const Pagination = ({items, itemsPerPage,  paginationContainer, listConta
     const renderedPagination = pageNumbersArray.slice(minPaginationLimit, maxPaginationLimit)
     
     const paginationBtn = renderedPagination.map(btn => (
-        <button style={ btn == currentPage ? activePageBtn : pageBtn } onClick={()=> setCurrentPage(btn)}>{btn}</button>
+        <button style={ btn == currentPage ? activePageBtn : pageBtn } onClick={()=> setCurrentPage(btn)} key={btn}>{btn}</button>
     ))
 
     let nextGroup = null;

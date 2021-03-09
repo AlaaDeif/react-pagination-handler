@@ -1,6 +1,6 @@
 {
   "name": "react-pagination-handler",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "It's a ReactJS component that takes an array of JSX as a props and return a fully functioned lists with pagination",
   "main": "Pagination.js",
   "scripts": {
