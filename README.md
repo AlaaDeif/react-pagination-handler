@@ -19,6 +19,10 @@ npm i react-pagination-handler
 ```
 
 ```js
+yarn add react-pagination-handler
+```
+
+```js
 import { Pagination } from 'react-pagination-handler';
 ```
 
