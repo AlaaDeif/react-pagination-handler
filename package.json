@@ -1,10 +1,10 @@
 {
   "name": "react-pagination-handler",
   "version": "1.0.0",
-  "description": "It's a ReactJS component that takes an array of JSX as a props and return a fully functioned lists with pagination controller",
-  "main": "index.js",
+  "description": "It's a ReactJS component that takes an array of JSX as a props and return a fully functioned lists with pagination",
+  "main": "Pagination.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npm init"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/AlaaDeif/react-pagination-handler/issues"
   },
-  "homepage": "https://github.com/AlaaDeif/react-pagination-handler#readme"
+  "homepage": "https://github.com/AlaaDeif/react-pagination-handler#readme",
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
 }
